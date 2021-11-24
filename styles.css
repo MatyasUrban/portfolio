@@ -1,13 +1,8 @@
-body, html {
-    height: 100%;
-}
-
 body {
     background-image: url("assets/png/gradient.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
@@ -32,6 +27,7 @@ a {
     font-size: 22px;
     margin: 5px;
     border-radius: 3px;
+    display: inline-block;
 }
 
 a:hover {
