@@ -1,6 +1,12 @@
+body, html {
+    height: 100%;
+}
+
 body {
     background-image: url("assets/png/gradient.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
