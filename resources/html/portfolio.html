@@ -7,21 +7,37 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="./resume.html">Resume</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
-        <h1>Portfolio</h1>
-        <h2>Technologies</h2>
-        <p>Python 3, HTML, CSS, SQL</p>
-        <h2>Tools</h2>
-        <p>PyCharm, VS Code</p>
-        <h2>Knowledge</h2>
-        <p>Data Structures and Algorithms, Agile, OOP, Git</p>
+        <header>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html" id="current">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="projects">
+            <article class="project">
+                <section class="about-project">
+                    <h1>Pathfinding Visualizer</h1>
+                    <p>Python program with GUI that visualizes the shortest path from start to finish accounting for obstacles using <span class="emphasize">A* Graph Path-Finding Algorithm</span></p>
+                </section>
+                <section class="project-link">
+                    <a href="https://github.com/MatyasUrban/PathfindingVisualizer" target="_blank">View the project on Github</a>
+                </section>
+            </article>
+            <article class="project">
+                <section class="about-project">
+                    <h1>Sudoku Solver</h1>
+                    <p>Python script that solves a predetermined sudoku board using <span class="emphasize">the backtracking algorithm</span></p>
+                </section>
+                <section class="project-link">
+                    <a href="https://github.com/MatyasUrban/SudokuSolver" target="_blank">View the project on Github</a>
+                </section>
+            </article>
+        </div>
     </body>
 </html>
